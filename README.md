@@ -1,3 +1,13 @@
+# bazzite-stable-nix
+
+Like [bazzite-nvidia-open-nix](https://github.com/niklaskorz/bazzite-nvidia-open-nix), but for bazzite-stable
+
+Add a /nix folder to make it possible to install nix (tested with the Lix installer)
+
+```
+rpm-ostree rebase ostree-image-signed:registry:ghcr.io/kurotoshiro/bazzite-stable-nix
+```
+
 # image-template
 
 This repository is meant to be a template for building your own custom [bootc](https://github.com/bootc-dev/bootc) image. This template is the recommended way to make customizations to any image published by the Universal Blue Project.
